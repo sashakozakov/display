@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
 body {
-	font: 400 14px/1.5 'Helvetica Nue', Helvetica, Arial, sans-serif;
+	font: 400 14px/1.5 'Raleway', Helvetica, Arial, sans-serif;
 	color: #8a8888;
 }
 .ba-container {
@@ -355,10 +355,14 @@ background-color: #dadada;
 margin-top: 40px;
 }
 .service-item__product__title {
+	display: block;
 color: #737373;
 font-size: 18px;
 font-weight: 600;
 line-height: 22px;
+}
+.service-item__product:hover a{
+color: #2ecc71;
 }
 
 .services li {
