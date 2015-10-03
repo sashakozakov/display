@@ -11,6 +11,7 @@ img {
 	-webkit-transition: opacity .3s ease-in;
 	-moz-transition: opacity .3s ease-in;
 	transition: opacity .3s ease-in;
+    display: block;
 }
 /*Typography*/
 a,
@@ -334,8 +335,7 @@ margin-top: -5px;
 }
 /*Services section*/
 
-.service-item {
-height: 200px;
+.grey-item {
 background-color: #efefef;
 }
 
@@ -446,4 +446,18 @@ text-transform: uppercase;
     left: 50%;
 margin-left: -5%;
 
+}
+
+.grey-item__home .ba-grid{
+padding-top: 40px;
+}
+
+.grey-item__home__title {
+margin-top: 0;
+}
+
+
+.portfolio-section {
+padding-top: 45px;
+padding-bottom: 50px;
 }
