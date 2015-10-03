@@ -456,8 +456,17 @@ padding-top: 40px;
 margin-top: 0;
 }
 
-
+.portfolio-section__slider__active {
+width: 500px;
+}
 .portfolio-section {
 padding-top: 45px;
 padding-bottom: 50px;
 }
+.portfolio-section__slider .ba-width-1-5 {
+margin-right: 20px;
+}
+.portfolio-section__slider .ba-width-1-5:first-child{
+margin-left: -100px;
+}
+
