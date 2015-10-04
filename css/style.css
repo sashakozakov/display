@@ -251,6 +251,30 @@ button:hover  {
 .ba-grid-gallery img:hover {
 	opacity: .5;
 }
+.ba-product {
+position: relative;
+cursor: pointer;
+}
+
+.ba-grid-gallery__img__link {
+	position: absolute;
+    width: 90px;
+    height: 90px;
+    background: #2ecc71 url(../img/link.png) 50% no-repeat;
+    border-color: transparent;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    top: 30%;
+    left: 35%;
+    visibility: hidden;
+    /*display: none;*/
+}
+.ba-product:hover .ba-grid-gallery__img__link {
+visibility: visible;
+    -webkit-transition: background .3s ease-in;
+	-moz-transition: background .3s ease-in;
+	transition: background .3s ease-in;
+}
 
 
 
@@ -528,4 +552,7 @@ opacity: 1;
 .portfolio-section__slider .ba-width-1-5:first-child{
 margin-left: -100px;
 }
+
+
+
 
