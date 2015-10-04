@@ -71,6 +71,9 @@ font-size: 24px;
 font-weight: 600;
 line-height: 22px;
 }
+h4 {
+	font-size: 18px;
+}
 a {
 	text-decoration: none;
 	color: #2ecc71;
@@ -344,6 +347,7 @@ margin-top: 30px;
 padding-bottom: 28px;
 }
 .service-item__product {
+	position: relative;
 height: 200px;
 text-align: center;
 	-webkit-transition: background-color .3s ease-in;
@@ -356,7 +360,8 @@ height: 200px;
 background-color: #dadada;
 }
 .service-item__product img {
-margin-top: 40px;
+padding-top: 62px;
+padding-left: 93px;
 }
 .service-item__product__title {
 	display: block;
@@ -364,9 +369,17 @@ color: #737373;
 font-size: 18px;
 font-weight: 600;
 line-height: 22px;
+position: absolute;
+left: 0;
+right: 0;
+bottom: 21px;
 }
 .service-item__product:hover a{
 color: #2ecc71;
+}
+
+.services__p {
+margin-top: 27px;
 }
 
 .services li {
