@@ -267,7 +267,6 @@ cursor: pointer;
     top: 30%;
     left: 35%;
     visibility: hidden;
-    /*display: none;*/
 }
 .ba-product:hover .ba-grid-gallery__img__link {
 visibility: visible;
@@ -551,6 +550,28 @@ opacity: 1;
 }
 .portfolio-section__slider .ba-width-1-5:first-child{
 margin-left: -100px;
+}
+
+
+.portfolio-section__slider__product {
+position: relative;
+}
+.ba-grid-gallery__img__link{
+	position: absolute;
+    width: 90px;
+    height: 90px;
+    background: #2ecc71 url(../img/link.png) 50% no-repeat;
+    border-color: transparent;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    top: 30%;
+    left: 35%;
+    text-align: center;
+    visibility: hidden;
+cursor: pointer;
+}
+.portfolio-section__slider__item:hover .ba-grid-gallery__img__link{
+visibility: visible;
 }
 
 
